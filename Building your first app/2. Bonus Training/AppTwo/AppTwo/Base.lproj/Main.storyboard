@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AppTwo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="landscape" translatesAutoresizingMaskIntoConstraints="NO" id="yto-iB-rX0">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ObM-rA-mZ1">
+                                <rect key="frame" x="0.0" y="627.33333333333337" width="414" height="268.66666666666663"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City by the Sea" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fWe-de-qsw">
+                                        <rect key="frame" x="20" y="20" width="374" height="29"/>
+                                        <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="24"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is such a beautiful place!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vga-Xn-i5r">
+                                        <rect key="frame" x="20" y="59" width="374" height="21"/>
+                                        <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.8048250440140845" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Vga-Xn-i5r" secondAttribute="trailing" constant="20" id="0yY-fn-FFd"/>
+                                    <constraint firstItem="fWe-de-qsw" firstAttribute="leading" secondItem="ObM-rA-mZ1" secondAttribute="leading" constant="20" id="Hpr-b6-w2h"/>
+                                    <constraint firstItem="Vga-Xn-i5r" firstAttribute="top" secondItem="fWe-de-qsw" secondAttribute="bottom" constant="10" id="Xqs-a9-LA3"/>
+                                    <constraint firstItem="fWe-de-qsw" firstAttribute="top" secondItem="ObM-rA-mZ1" secondAttribute="top" constant="20" id="dft-Bv-tpt"/>
+                                    <constraint firstAttribute="trailing" secondItem="fWe-de-qsw" secondAttribute="trailing" constant="20" id="l2q-Yq-ERq"/>
+                                    <constraint firstItem="Vga-Xn-i5r" firstAttribute="leading" secondItem="ObM-rA-mZ1" secondAttribute="leading" constant="20" id="zgx-MJ-GDe"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yto-iB-rX0" secondAttribute="trailing" id="0uc-sQ-UfD"/>
+                            <constraint firstItem="ObM-rA-mZ1" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.3" id="Dcb-Av-SvT"/>
+                            <constraint firstItem="ObM-rA-mZ1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Lqp-qh-Vk4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yto-iB-rX0" secondAttribute="bottom" id="XFM-Nc-2DF"/>
+                            <constraint firstItem="yto-iB-rX0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bCx-xD-RSN"/>
+                            <constraint firstAttribute="trailing" secondItem="ObM-rA-mZ1" secondAttribute="trailing" id="hul-Oe-ybp"/>
+                            <constraint firstAttribute="bottom" secondItem="ObM-rA-mZ1" secondAttribute="bottom" id="i5j-gR-30h"/>
+                            <constraint firstItem="yto-iB-rX0" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="zlV-az-AOP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="95.758928571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="landscape" width="2005" height="1085"/>
+    </resources>
+</document>

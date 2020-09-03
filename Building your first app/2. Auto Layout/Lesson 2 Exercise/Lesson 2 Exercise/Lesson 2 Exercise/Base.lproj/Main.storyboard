@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lesson_2_Exercise" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Breakfast" translatesAutoresizingMaskIntoConstraints="NO" id="vuF-Yy-iuW">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TopGradient" translatesAutoresizingMaskIntoConstraints="NO" id="ITv-LR-kAb">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="380"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BottomGradient" translatesAutoresizingMaskIntoConstraints="NO" id="URr-Oa-DKT">
+                                <rect key="frame" x="0.0" y="632" width="414" height="298"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Energize with the healthy and healthy breakfast" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AVl-22-IH6">
+                                <rect key="frame" x="15" y="790" width="441" height="52"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hardcore Avo Toast" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GwD-GR-I44">
+                                <rect key="frame" x="30" y="89" width="146.5" height="86"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Heart_health" translatesAutoresizingMaskIntoConstraints="NO" id="Jqd-na-kVP">
+                                <rect key="frame" x="319" y="64" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="mKp-ae-xMJ"/>
+                                    <constraint firstAttribute="width" constant="75" id="mhX-Q7-du3"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="GwD-GR-I44" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="45" id="2sb-YQ-Wuv"/>
+                            <constraint firstAttribute="trailing" secondItem="ITv-LR-kAb" secondAttribute="trailing" id="9AM-hc-ehd"/>
+                            <constraint firstItem="URr-Oa-DKT" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="68" id="Bje-qY-TAX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="AVl-22-IH6" secondAttribute="bottom" constant="20" id="CF1-xJ-uAW"/>
+                            <constraint firstItem="Jqd-na-kVP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Ibj-BF-k4G"/>
+                            <constraint firstItem="vuF-Yy-iuW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Qf0-Po-o82"/>
+                            <constraint firstItem="ITv-LR-kAb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" multiplier="0.8" id="RzX-41-M87"/>
+                            <constraint firstItem="URr-Oa-DKT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Wpw-Fd-KAG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="URr-Oa-DKT" secondAttribute="trailing" id="Ylh-aY-3a7"/>
+                            <constraint firstItem="Jqd-na-kVP" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="GwD-GR-I44" secondAttribute="trailing" constant="8" symbolic="YES" id="Z9T-lg-X4R"/>
+                            <constraint firstAttribute="trailing" secondItem="Jqd-na-kVP" secondAttribute="trailing" constant="20" id="ZCe-Rv-WLG"/>
+                            <constraint firstItem="vuF-Yy-iuW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="44" id="dQP-G7-5RB"/>
+                            <constraint firstItem="AVl-22-IH6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="eWQ-D8-JZv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="AVl-22-IH6" secondAttribute="trailing" constant="-62" id="gRE-Kz-ztK"/>
+                            <constraint firstItem="ITv-LR-kAb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gjp-mi-FiL"/>
+                            <constraint firstItem="GwD-GR-I44" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="uK3-cK-hqg"/>
+                            <constraint firstAttribute="bottom" secondItem="vuF-Yy-iuW" secondAttribute="bottom" constant="34" id="xOy-EX-Tfb"/>
+                            <constraint firstAttribute="trailing" secondItem="vuF-Yy-iuW" secondAttribute="trailing" id="xad-qP-h5b"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="95.758928571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BottomGradient" width="414" height="298"/>
+        <image name="Breakfast" width="414" height="896"/>
+        <image name="Heart_health" width="47" height="41"/>
+        <image name="TopGradient" width="414" height="380"/>
+    </resources>
+</document>

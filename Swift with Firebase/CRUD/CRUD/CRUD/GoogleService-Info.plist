@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>385946591141-ac591sf1n8oht055ra5ndmh8mk4vkair.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.385946591141-ac591sf1n8oht055ra5ndmh8mk4vkair</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDxvTdEWxzmPOLcDXqkCiV8EORJKczOpCU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>385946591141</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Jsv.CRUD</string>
+	<key>PROJECT_ID</key>
+	<string>crud-jsv</string>
+	<key>STORAGE_BUCKET</key>
+	<string>crud-jsv.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:385946591141:ios:91941ee3d6ede412bbd24c</string>
+	<key>DATABASE_URL</key>
+	<string>https://crud-jsv.firebaseio.com</string>
+</dict>
+</plist>
